@@ -14,7 +14,7 @@ namespace htel
 
         {
 
-            Console.WriteLine("\t\t\tWelcome to sydney hotel");
+            Console.WriteLine("\t\t\tWelcome to Sydney Hotel Management System");
             int i = 0;
             string[] name = new string[20];
             int[] night = new int[20];
@@ -94,7 +94,7 @@ namespace htel
             }
 
             //displaying the data in form of table
-            Console.WriteLine("\t\t\tSummery of reservation");
+            Console.WriteLine("\t\t\tSummary of Reservations");
             Console.WriteLine("Name\t\t\tNumber of room\t\tRoom service\t\tCharge");
             for (int j = 0; j < i; j++)
             {
